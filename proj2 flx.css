@@ -1,0 +1,79 @@
+body{
+    background-color: hsl(225, 100%, 94%) ;
+    background-image: url(pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.perent{
+    width:350px;
+    background-color: white;
+    border-radius: 20px;   
+    font-family: sans-serif;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.hero{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.cheld{
+    text-align: center;
+    padding: 15px;  
+}
+.hero{
+    width: 100%;
+}
+.text{
+    color: hsl(224, 23%, 55%);
+}
+button{
+  width: 100%;
+  margin: 10px 0;
+}
+.ch1{
+    padding: 20px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+}
+.ch2{
+    background-color: white;
+    color: brown;
+    border: none;
+}
+.box{
+    background-color: gainsboro ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.plan{
+    display: flex;
+    margin: 10px;   
+}
+a{
+    margin: 10px; 
+}
+.span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+span:first-child{
+    font-weight: bold;
+    font-size: 20px;
+}
+span:last-child{
+    color: hsl(224, 23%, 55%);
+}
+
+
+
+
+
